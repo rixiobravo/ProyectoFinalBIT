@@ -1,0 +1,37 @@
+.content1{
+    float: left;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.contenido1{
+    font-size: 40px;
+    color: grey;
+    font-style: none;
+}
+
+.parrafo-content1{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.parrafo2-content1{
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+.content2{
+    margin-top: 50px;
+    margin-left: 950px;
+    margin-right: 150PX;
+    margin-bottom: 0px;
+    color: grey;
+}
+.content3{
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 150px;
+}

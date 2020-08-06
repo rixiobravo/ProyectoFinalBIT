@@ -26,7 +26,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/scrip.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BioIngenio"
+    }
+  },
+  "defaultProject": "BioIngenio",
+  "cli": {
+    "analytics": "c39c503c-823b-41f2-9462-dffa8ae794a1"
+  }
 }

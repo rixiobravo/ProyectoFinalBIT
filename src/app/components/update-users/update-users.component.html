@@ -1,0 +1,42 @@
+<div class="container">
+    <form #updateUserForm="ngForm" (ngSubmit)="updateUser();">
+        
+        <div class="row form-row">
+            <div class="col form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input class="form-control" id="email" name="email" type="email" #email="ngModel" [(ngModel)]="user.email" placeholder="Ingrese su correo electronico" required/>
+            </div>
+            <div class="col form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input class="form-control" id="password" name="password" type="password" #password="ngModel" [(ngModel)]="user.password" placeholder="Coloque su clave" required/>
+            </div>
+        </div>
+    
+        <div class="row form-row">
+            <div class="col col-md-6 mb-3">
+                <label for="validationCustom01">Nombre</label>
+                <input class="form-control" id="firstName" name="firstName" type="text" #firstName="ngModel" [(ngModel)]="user.firstName" placeholder="Ingrese su Nombre" required/>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+      
+            <div class="col col-md-6 mb-3">
+                <label for="validationCustom02">Apellido</label>
+                <input class="form-control" id="lastName" name="lastName" type="text" #lastName="ngModel" [(ngModel)]="user.lastName" placeholder="Ingrese su apellido" required />
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col col-md-6 mb-3">
+                <label for="validationCustom02">Edad</label>
+                <input class="form-control" id="age" name="age" type="number" #age="ngModel" [(ngModel)]="user.age" placeholder="Ingrese su edad"/>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Editar</button>
+    </form>
+</div>
